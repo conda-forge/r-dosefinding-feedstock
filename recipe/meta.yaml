@@ -1,4 +1,4 @@
-{% set version = '0.9-16' %}
+{% set version = "0.9-17" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,11 +11,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/DoseFinding_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/DoseFinding/DoseFinding_{{ version }}.tar.gz
-  sha256: 3f211e022d25bcdeb4532743c293fc460ccb46456f62614daf2e56e268499959
+  sha256: 1c9b134bbffa3e1137a2661999f2a24c28695c601908ea70b7c1c836083149d2
 
 build:
   merge_build_host: True  # [win]
-  number: 1002
+  number: 0
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
