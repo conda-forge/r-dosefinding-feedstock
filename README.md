@@ -7,7 +7,7 @@ Package license: GPL-3
 
 Feedstock license: BSD 3-Clause
 
-Summary: The DoseFinding package provides functions for the design and analysis of dose-finding experiments (with focus on pharmaceutical Phase II clinical trials). It provides functions for: multiple contrast tests, fitting non-linear dose-response models (using Bayesian and non-Bayesian estimation), calculating optimal designs and an implementation of the MCPMod methodology.
+Summary: The DoseFinding package provides functions for the design and analysis of dose-finding experiments (with focus on pharmaceutical Phase II clinical trials). It provides functions for: multiple contrast tests, fitting non-linear dose-response models (using Bayesian and non-Bayesian estimation), calculating optimal designs and an implementation of the MCPMod methodology (Pinheiro et al. (2014) <doi:10.1002/sim.6052>).
 
 
 
@@ -176,11 +176,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@dbast](https://github.com/dbast/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
