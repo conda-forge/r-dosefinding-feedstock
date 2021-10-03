@@ -1,4 +1,4 @@
-{% set version = "1.0-1" %}
+{% set version = "1.0-2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/DoseFinding_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/DoseFinding/DoseFinding_{{ version }}.tar.gz
-  sha256: aa3059dfd2f419d648e6f0cfbf9b22647a7fa2d2dd7a72b8b28f0ba53656171b
+  sha256: 0bea3ca25d678280a7805d26b3060ea398dde5131e6df6284c59491c39ca9797
 
 build:
   merge_build_host: true  # [win]
@@ -46,7 +46,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=DoseFinding
-  license: GPL-3
+  license: GPL-3.0-only
   summary: 'The DoseFinding package provides functions for the design and analysis of dose-finding experiments (with focus on pharmaceutical Phase II clinical trials). It provides functions for: multiple contrast tests, fitting non-linear dose-response models (using Bayesian and non-Bayesian estimation), calculating optimal
     designs and an implementation of the MCPMod methodology (Pinheiro et al. (2014) <doi:10.1002/sim.6052>).'
   license_family: GPL3
