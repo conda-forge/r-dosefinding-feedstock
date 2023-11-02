@@ -3,6 +3,7 @@ About r-dosefinding-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dosefinding-feedstock/blob/main/LICENSE.txt)
 
+
 About r-dosefinding
 -------------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=DoseFinding
 Package license: GPL-3.0-only
 
 Summary: The DoseFinding package provides functions for the design and analysis of dose-finding experiments (with focus on pharmaceutical Phase II clinical trials). It provides functions for: multiple contrast tests, fitting non-linear dose-response models (using Bayesian and non-Bayesian estimation), calculating optimal designs and an implementation of the MCPMod methodology (Pinheiro et al. (2014) <doi:10.1002/sim.6052>).
+
 About r-dosefinding
 -------------------
 
