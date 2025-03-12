@@ -1,4 +1,4 @@
-{% set version = "1.2-1" %}
+{% set version = "1.3-1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/DoseFinding_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/DoseFinding/DoseFinding_{{ version }}.tar.gz
-  sha256: 2e0027569c7d650d63eded31e1f6085eedf9bd124e1fe1d8b8d4297768271e32
+  sha256: 388383f13077bc2ef0f7f9d1817bc4a33d9d316a8a379295e25ccc819b1fe8c1
 
 build:
   number: 0
